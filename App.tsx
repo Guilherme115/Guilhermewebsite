@@ -132,7 +132,7 @@ const AboutMe = () => {
             <div className="w-full aspect-square bg-gray-200 rounded-[2.5rem] overflow-hidden shadow-2xl relative z-10 border-4 border-white">
               {/* ESPAÇO PARA SUA FOTO: Substitua a imagem abaixo pela sua foto */}
               <img
-                src="/assets/img.png"
+                src="assets/img.png"
                 alt="Guilherme"
                 className="w-full h-full object-cover"
               />
