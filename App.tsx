@@ -34,7 +34,7 @@ const Navbar = () => {
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
               <div className="relative bg-white p-2 rounded-lg border border-gray-100">
-                {/* ESPAÇO PARA LOGO: Substitua o ícone <Code /> por uma tag <img src="sua-logo.png" /> */}
+                {/* ESPAÇO PARA LOGO: Substitua o ícone <Code /> por uma tag <assets src="sua-logo.png" /> */}
                 <Code className="text-blue-600 w-7 h-7" />
               </div>
             </div>
@@ -132,7 +132,7 @@ const AboutMe = () => {
             <div className="w-full aspect-square bg-gray-200 rounded-[2.5rem] overflow-hidden shadow-2xl relative z-10 border-4 border-white">
               {/* ESPAÇO PARA SUA FOTO: Substitua a imagem abaixo pela sua foto */}
               <img
-                src="/img/img.png"
+                src="/assets/img.png"
                 alt="Guilherme"
                 className="w-full h-full object-cover"
               />
@@ -297,9 +297,9 @@ const WhySection = () => (
 const Portfolio = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const items = [
-    { id: 1, title: "Plataforma Darcy", category: "Plataforma educacional em desenvolvimento", img: "/img/img_7.png" },
-      { id: 2, title: "Villas Carnes", category: "Distibuidora de carnes", img: "/img/img_10.png" },
-    { id: 3, title: "Fernanda Design", category: "Design", img: "/img/img_11.png" },
+    { id: 1, title: "Plataforma Darcy", category: "Plataforma educacional em desenvolvimento", img: "assets/img_7.png" },
+      { id: 2, title: "Villas Carnes", category: "Distibuidora de carnes", img: "assets/img_10.png" },
+    { id: 3, title: "Fernanda Design", category: "Design", img: "assets/img_11.png" },
   ];
 
   const next = () => setCurrentIndex((currentIndex + 1) % items.length);
