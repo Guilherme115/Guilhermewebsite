@@ -297,9 +297,9 @@ const WhySection = () => (
 const Portfolio = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const items = [
-    { id: 1, title: "Plataforma Darcy", category: "Plataforma educacional em desenvolvimento", img: "img/img_7.png" },
-      { id: 2, title: "Villas Carnes", category: "Distibuidora de carnes", img: "img/img_10.png" },
-    { id: 3, title: "Fernanda Design", category: "Design", img: "img/img_11.png" },
+    { id: 1, title: "Plataforma Darcy", category: "Plataforma educacional em desenvolvimento", img: "public/img/img_7.png" },
+      { id: 2, title: "Villas Carnes", category: "Distibuidora de carnes", img: "public/img/img_10.png" },
+    { id: 3, title: "Fernanda Design", category: "Design", img: "public/img/img_11.png" },
   ];
 
   const next = () => setCurrentIndex((currentIndex + 1) % items.length);
